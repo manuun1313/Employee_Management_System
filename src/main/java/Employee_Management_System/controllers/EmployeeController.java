@@ -1,11 +1,11 @@
-package reservationSystem.controllers;
+package Employee_Management_System.controllers;
 
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import reservationSystem.entity.Employee;
-import reservationSystem.service.EmployeeService;
+import Employee_Management_System.entity.Employee;
+import Employee_Management_System.service.EmployeeService;
 
 import java.time.format.DateTimeFormatter;
 import java.util.List;

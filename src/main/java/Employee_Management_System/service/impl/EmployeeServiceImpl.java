@@ -1,13 +1,13 @@
-package reservationSystem.service.impl;
+package Employee_Management_System.service.impl;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import reservationSystem.entity.Employee;
-import reservationSystem.repository.EmployeeRepository;
-import reservationSystem.service.EmployeeService;
+import Employee_Management_System.entity.Employee;
+import Employee_Management_System.repository.EmployeeRepository;
+import Employee_Management_System.service.EmployeeService;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {

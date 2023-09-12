@@ -1,10 +1,10 @@
-package reservationSystem;
+package Employee_Management_System;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import reservationSystem.repository.EmployeeRepository;
+import Employee_Management_System.repository.EmployeeRepository;
 
 @SpringBootApplication
 public class EmployeeSystemApplication implements CommandLineRunner {

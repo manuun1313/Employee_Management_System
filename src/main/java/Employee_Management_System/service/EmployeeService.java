@@ -1,7 +1,7 @@
-package reservationSystem.service;
+package Employee_Management_System.service;
 
 import org.springframework.data.domain.Page;
-import reservationSystem.entity.Employee;
+import Employee_Management_System.entity.Employee;
 
 public interface EmployeeService {
     Page<Employee> searchAndPaginateEmployee(String keyword, int pageNo, int pageSize, String sortField, String sortDir);

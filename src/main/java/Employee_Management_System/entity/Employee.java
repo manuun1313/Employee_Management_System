@@ -1,9 +1,8 @@
-package reservationSystem.entity;
+package Employee_Management_System.entity;
 
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 // Employee object
 @Entity
